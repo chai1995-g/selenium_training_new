@@ -1,10 +1,10 @@
 a = 9
 b = 2
-g = 3
+c = 3
 
-if (a > b) and (a > g):
+if (a > b) and (a > c):
   print(f"{a} is a greater number")
-elif (a < b) and (a < g):
+elif (a < b) and (a < c):
     print(f"{b}is a greater number")
 else:
-    print(f"{g} is a greater number")
+    print(f"{c} is a greater number")
